@@ -1,0 +1,23 @@
+{
+    "name": "lux/contus-package-generator",
+    "description": "A Simple boilerplate code for contus package",
+    "keywords": ["contus", "contus-package-generator", "vplay", "base", "base-package", "contus-package", "contus-package-generator"],
+    "type": "library",
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Lakshmi Narayanan",
+            "email": "laktherock@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lux\\Contus\\": "src/"
+        }
+    }
+}
